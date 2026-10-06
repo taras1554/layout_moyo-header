@@ -2,10 +2,30 @@
   --blue: #00acdc;
 }
 
+html {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Roboto, sans-serif;
   font-weight: 500;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header,
+nav,
+a,
+img {
+  box-sizing: border-box;
 }
 
 .header {
@@ -28,7 +48,6 @@ body {
 
 .nav__list {
   display: flex;
-  list-style: none;
 }
 
 .nav__item:not(:last-child) {
